@@ -1,37 +1,3 @@
-// import React from "react";
-// import "./Sidebar.css";
-
-// const Sidebar = () => {
-//   return (
-//     <div className="sidebar">
-//       <h2 className="logo"><span className="highlight">Health</span>care.</h2>
-      
-//       <nav className="nav-section">
-//         <p className="section-title">General</p>
-//         <ul>
-//           <li className="active">🏠 Dashboard</li>
-//           <li>📜 History</li>
-//           <li>🗓 Calendar</li>
-//           <li>📅 Appointments</li>
-//           <li>📊 Statistics</li>
-//         </ul>
-
-//         <p className="section-title">Tools</p>
-//         <ul>
-//           <li>💬 Chat</li>
-//           <li>📞 Support</li>
-//         </ul>
-//       </nav>
-
-//       <div className="settings">
-//         <p>⚙️ Setting</p>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Sidebar;
-
 
 import {
   LayoutDashboard,
