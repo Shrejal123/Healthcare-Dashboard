@@ -1,0 +1,158 @@
+.anatomy-section {
+  background-color: white;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f3f4f6;
+}
+
+.anatomy-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.anatomy-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.search-btn {
+  padding: 0.5rem;
+  background: none;
+  border: none;
+  color: #9ca3af;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.search-btn:hover {
+  color: #6b7280;
+}
+
+.search-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.anatomy-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.anatomy-visual {
+  flex-shrink: 0;
+}
+
+.body-container {
+  position: relative;
+  width: 15rem;
+  /* height: 20rem; */
+  /* background: linear-gradient(to bottom, #fed7aa, #fef3c7); */
+  /* border-radius: 0.5rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.human-body {
+  width: 8rem;
+  height: 16rem;
+  background: linear-gradient(to bottom, #fb923c, #f97316);
+  border-radius: 50px;
+  position: relative;
+}
+
+.body-head {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2rem;
+  height: 2rem;
+  background-color: #fed7aa;
+  border-radius: 50%;
+}
+
+.body-torso {
+  position: absolute;
+  top: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 3rem;
+  height: 4rem;
+  background-color: #fb923c;
+  border-radius: 0.5rem;
+}
+
+.body-legs {
+  position: absolute;
+  top: 7rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4rem;
+  height: 5rem;
+  background-color: #fb923c;
+  border-radius: 0.5rem;
+}
+
+.health-indicator {
+  position: absolute;
+  background-color: #2563eb;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.heart-indicator {
+  top: 4rem;
+  right: 1rem;
+}
+
+.leg-indicator {
+  bottom: 5rem;
+  left: 1rem;
+  background-color: #06b6d4;
+}
+
+.indicator-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+}
+
+.heart-dot {
+  background-color: #ef4444;
+}
+
+.leg-dot {
+  background-color: #10b981;
+}
+
+@media (max-width: 1024px) {
+  .anatomy-content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .body-container {
+    width: 12rem;
+    height: 16rem;
+  }
+
+  .human-body {
+    width: 6rem;
+    height: 12rem;
+  }
+}
